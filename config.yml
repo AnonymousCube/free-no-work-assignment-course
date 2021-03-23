@@ -1,7 +1,7 @@
 title: Free No Work - Assignment
 description: '-- course #1'
 template:
-  repo: free-no-work-assignment-template
+  repo: free-no-work-assignment
   name: free-no-work-assignment
 before:
   - type: createIssue
