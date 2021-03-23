@@ -1,0 +1,16 @@
+title: Free No Work - Assignment
+description: '-- course #1'
+template:
+  repo: free-no-work-assignment-template
+  name: free-no-work-assignment
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
